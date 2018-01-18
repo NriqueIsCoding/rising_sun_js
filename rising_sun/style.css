@@ -1,0 +1,22 @@
+body {
+  background-image: url('horizon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sun {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.horizon {
+  height: 480px;
+  border: 1px solid black;
+
+  /* overflow won't work without relative */
+  position: relative;
+  overflow: hidden;
+}
